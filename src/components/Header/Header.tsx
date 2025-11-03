@@ -3,7 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
 // import Resume from '../../assets/Vinayak_Singh_Resume.pdf'
-import Resume1 from '../../assets/NandanResume.pdf'
+import Resume1 from '../../assets/NandanResume (4).pdf'
 export function Header() {
   const [isActive, setActive] = useState(false)
   function toggleTheme() {
@@ -45,7 +45,7 @@ export function Header() {
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
             Contact
           </NavHashLink>
-          <a href={NandanResume (4)} download className="button">
+          <a href={Resume1} download className="button">
             Resume    
           </a>
         </nav>
